@@ -1,6 +1,6 @@
 # EECS-368-Project
 
-This game is called "Finish the Fleet"
+Game Name: "Finish the Fleet"
 
 Author:Edwin Recinos
 
