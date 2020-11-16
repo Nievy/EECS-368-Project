@@ -4,6 +4,9 @@ Game Name: "Finish the Fleet"
 
 Author:Edwin Recinos
 
+Updated Version: Please download v2 and open index.html to play!
+
+Original Documentation:
 To run this game in terminal please run the file "node.js" 
 
 "node node.js"
