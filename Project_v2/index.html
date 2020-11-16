@@ -1,0 +1,176 @@
+<html>
+
+<head>
+<meta charset="utf-8"/>
+<link href="style.css" rel="stylesheet">
+</head>
+
+
+
+<body class="standard" id="Background">
+
+
+
+
+
+
+
+
+
+
+
+
+<table class="player">
+
+<tr>
+
+<td class="name">Player</td>
+
+</tr>
+
+<tr>
+<th>Row,Col</th>
+<th> 1 </th>
+<th> 2 </th>
+<th> 3 </th>
+<th> 4 </th>
+</tr>
+
+<tr>
+<th> 1</th>
+<td class="ocean" id="1,1">1,1</td>
+<td class="ocean" id="1,2">1,2</td>
+<td class="ocean" id="1,3">1,3</td>
+<td class="ocean" id="1,4">1,4</td>
+</tr>
+
+<tr>
+<th> 2</th>
+<td class="ocean" id="2,1">2,1</td>
+<td class="ocean" id="2,2">2,2</td>
+<td class="ocean" id="2,3">2,3</td>
+<td class="ocean" id="2,4">2,4</td>
+</tr>
+
+<tr>
+<th> 3</th>
+<td class="ocean" id="3,1">3,1</td>
+<td class="ocean" id="3,2">3,2</td>
+<td class="ocean" id="3,3">3,3</td>
+<td class="ocean" id="3,4">3,4</td>
+</tr>
+
+
+
+<tr>
+<th> 4</th>
+<td class="ocean" id="4,1">4,1</td>
+<td class="ocean" id="4,2">4,2</td>
+<td class="ocean" id="4,3">4,3</td>
+<td class="ocean" id="4,4">4,4</td>
+</tr>
+
+
+
+
+</table>
+
+
+
+
+<div class="margin">
+
+<table class="ai">
+<tr>
+
+<td class="name"> AI</td>
+</tr>
+
+<tr>
+<th>Row,Col</th>
+<th> 1 </th>
+<th> 2 </th>
+<th> 3 </th>
+<th> 4 </th>
+</tr>
+
+<tr>
+<th> 1</th>
+<td class="ai" id="a1,1">1,1</td>
+<td class="ai" id="a1,2">1,2</td>
+<td class="ai" id="a1,3">1,3</td>
+<td class="ai" id="a1,4">1,4</td>
+</tr>
+
+<tr>
+<th> 2</th>
+<td class="ai" id="a2,1">2,1</td>
+<td class="ai" id="a2,2">2,2</td>
+<td class="ai" id="a2,3">2,3</td>
+<td class="ai" id="a2,4">2,4</td>
+</tr>
+
+<tr>
+<th> 3</th>
+<td class="ai" id="a3,1">3,1</td>
+<td class="ai" id="a3,2">3,2</td>
+<td class="ai" id="a3,3">3,3</td>
+<td class="ai" id="a3,4">3,4</td>
+</tr>
+
+
+
+<tr>
+<th> 4</th>
+<td class="ai" id="a4,1">4,1</td>
+<td class="ai" id="a4,2">4,2</td>
+<td class="ai" id="a4,3">4,3</td>
+<td class="ai" id="a4,4">4,4</td>
+</tr>
+
+
+
+
+</table>
+
+</div>
+
+</div>
+
+<script src="ai.js"></script>
+<script src="application.js"></script>
+<script src="board.js"></script>
+<script src="player.js"></script>
+
+<div class="game">
+
+<div id="inputs">
+<div class="red">
+Leader
+</div>
+
+<div class="blue">
+Ocean
+</div>
+
+<div class="orange">
+Boat
+</div>
+<br>
+<h2>Finish The Fleet</h2>
+Row Input<br><input type="number" min="1" max="4" id="rinput"></input><br>
+Column Input<br><input type="number" min="1" max="4" id="cinput"></input><br><br>
+
+<!--<button id="Button">Submit Inputs</button><br>-->
+
+<script>app=new Application();</script>
+<button id="button" onclick="app.fire()" type="button">Fire</button>
+<button id="status" onclick="app.status()" type="button">Status Report</button>
+
+
+
+</div>
+
+</body>
+
+</html>
