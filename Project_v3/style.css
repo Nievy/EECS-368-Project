@@ -1,0 +1,162 @@
+body.standard{
+    background-image: url(background.gif);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+body.hit{
+    background-image: url(background2.gif);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+body.hitLead{	
+    background-image: url(background3.gif);
+	background-size: 100%;
+	background-repeat: no-repeat;}
+
+body.lose{
+    background-image: url(background4.gif);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+body.water{
+    background-image: url(background5.gif);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+div.game{
+
+    background-color:black;
+    color:white;
+    margin:10px;
+    float:left;
+    text-align:center;
+    vertical-align:middle;
+
+}
+
+div.red{
+
+    margin-top: 10px;
+    margin-left: 10px;
+    float:left;
+    background-color: red;
+    color:black;
+}
+
+div.blue{
+    margin-top: 10px;
+    color:black;
+    margin-left:10px;
+    float:left;
+    background-color: lightskyblue;
+}
+
+div.orange{
+    margin-top: 10px;
+    color:black;
+    margin-left:10px;
+    float:left;
+    background-color: orange;
+}
+
+div.margin{
+    text-align: center;
+    margin-left:10px;
+    float:left;
+    margin-top:20px;
+}
+table{
+    width:400px;
+    height:100px;
+    border:3px solid black;
+}
+
+table.player{
+    margin-top:20px;
+    margin-left:10px;
+    background-color: lightgreen;
+    float:left;
+
+
+
+}
+
+th, tr, td{
+    border:2px solid black;
+}
+
+table.ai{
+    
+    background-color: slategrey;
+    float:right;
+}
+
+th{
+    background-color: darkred;
+    color:lightgreen;
+    width:50px;
+    height:10px;
+
+}
+
+td.name{
+    background-color: blueviolet;
+    color:yellow;
+    text-align: center;
+    vertical-align: middle;
+
+
+
+}
+
+td.ocean{
+    background-color: lightskyblue;
+    vertical-align: middle;
+    text-align:center;
+    
+
+
+
+}
+
+td.hit{
+    background-color: orange;
+
+    vertical-align: middle;
+    text-align:center;
+
+
+
+}
+
+td.hitLead{
+    background-color: red;
+
+    vertical-align: middle;
+    text-align:center;
+
+
+
+}
+
+td.miss{
+    background-color: black;
+    color:white;
+    vertical-align: middle;
+    text-align:center;
+
+}
+
+td.ai{
+    background-color: black;
+    color:white;
+    vertical-align: middle;
+    text-align:center;
+
+}
+
+
